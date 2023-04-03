@@ -1,0 +1,81 @@
+/* scrollamount="35" ---- work for control speed */
+/* direction="up down left right" ---- work for control direction */
+/* behavior="scroll slide alternate"  --- work for control animation behavior */
+/* scrolldelay="100" --- work for dela animation   */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.backgrond {
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: 60%;
+    background-attachment: fixed;
+
+
+
+}
+
+.motion_file {
+    visibility: hidden;
+}
+
+
+.btnsection {
+    position: relative;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 11px 120px;
+    border-radius: 5px;
+    font-size: 43px;
+    outline: none;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 5px;
+    color: cornflowerblue;
+    border: 1px solid #6A6A69;
+}
+
+.btn:hover {
+    box-shadow: 3px 4px 47px #FF5;
+    border: 1px solid transparent;
+    color: chocolate;
+
+}
+
+
+.tiger {
+    width: 400px;
+    margin-top: 400px;
+}
+
+.ox {
+    width: 450px;
+    margin-top: 200px;
+}
+
+.eggle {
+    width: 150px;
+    margin-top: 200px;
+}
+
+.monkey {
+    width: 350px;
+    margin-top: 200px;
+}
+
+.zebra {
+    width: 400px;
+    margin-top: 200px;
+}
+
+.ship {
+    width: 250px;
+    margin-top: 200px;
+}
